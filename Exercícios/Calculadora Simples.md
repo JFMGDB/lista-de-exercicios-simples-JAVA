@@ -7,15 +7,18 @@
 <details>
   <summary>Spoiler warning</summary>
 
-```public class Main {
-  public static Scanner read = new Scanner(System.in);
-  public static void main(String[] args) {
+```import java.util.Scanner;
 
+public class Main {
+  public static Scanner read = new Scanner(System.in);
+
+  public static void main(String[] args) {
     int num1;
     int num2;
 
     System.out.println("Digite o primeiro numero");
     num1 = read.nextInt();
+
     System.out.println("Digite o segundo numero");
     num2 = read.nextInt();
 
@@ -27,14 +30,14 @@
 
     int multiplicacao = num1 * num2;
     System.out.println("A multiplicação dos numeros é: " + multiplicacao);
-  
+
     if (num2 == 0) {
       System.out.println("Não é possivel dividir pois o denominador é 0");
-    }
-    else { 
+    } else {
       int divisao = num1 / num2;
       System.out.println("A divisão dos numeros é: " + divisao);
     }
+
   }
 }
 ```
