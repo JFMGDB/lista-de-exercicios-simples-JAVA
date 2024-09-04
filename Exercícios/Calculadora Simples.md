@@ -7,7 +7,8 @@
 <details>
   <summary>Spoiler warning</summary>
 
-```import java.util.Scanner;
+```
+import java.util.Scanner;
 
 public class Main {
   public static Scanner read = new Scanner(System.in);
