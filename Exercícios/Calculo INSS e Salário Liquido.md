@@ -1,7 +1,7 @@
 # Calculadora de Contribuição ao INSS e Salário Líquido
 
  - Peça ao usuário para inserir seu salário bruto. Calcule o valor de contribuição ao INSS com base nas alíquotas vigentes. Exiba o valor da contribuição e o salário líquido.
- - 
+   
 **Resolução:**
 
 <details>
