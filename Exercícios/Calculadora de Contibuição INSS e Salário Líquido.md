@@ -42,24 +42,24 @@ public class Main {
         inss = (1320.00 * 0.075) + ((2571.29 - 1320.00) * 0.09) + ((salarioBruto - 2571.29) * 0.12);
         double salarioLiquido = salarioBruto - inss;
         
-        System.out.println("Sua contribuicao para o INSS em r$ inss é: " + inss);
-        System.out.println("Seu salario liquido em r$ é: " + salarioLiquido);
+          System.out.println("Sua contribuicao para o INSS em r$ inss é: " + inss);
+          System.out.println("Seu salario liquido em r$ é: " + salarioLiquido);
       }
       else if(salarioBruto <= 7507.49) {
         
         inss = (1320.00 * 0.075) + ((2571.29 - 1320.00) * 0.09) + ((3856.94 - 2571.29) * 0.12) + ((salarioBruto - 3856.94) * 0.14);
         double salarioLiquido = salarioBruto - inss;
         
-        System.out.println("Sua contribuicao para o INSS em r$ inss é: " + inss);
-        System.out.println("Seu salario liquido em r$ é: " + salarioLiquido);
+          System.out.println("Sua contribuicao para o INSS em r$ inss é: " + inss);
+          System.out.println("Seu salario liquido em r$ é: " + salarioLiquido);
       }
       else{
         
         inss= 877.24;
         double salarioLiquido = salarioBruto - inss;
         
-        System.out.println("Sua contribuicao para o INSS em r$ inss é: " + inss);
-        System.out.println("Seu salario liquido em r$ é: " + salarioLiquido);
+          System.out.println("Sua contribuicao para o INSS em r$ inss é: " + inss);
+          System.out.println("Seu salario liquido em r$ é: " + salarioLiquido);
       }
    }
 }
