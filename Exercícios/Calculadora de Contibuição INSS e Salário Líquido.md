@@ -24,7 +24,7 @@ public class Main {
       if(salarioBruto <= 1320.00) {
         
         inss = salarioBruto * 0.075;
-         double salarioLiquido = salarioBruto - inss;
+        double salarioLiquido = salarioBruto - inss;
         
           System.out.println("Sua contribuicao para o INSS em r$ é: " + inss);
           System.out.println("Seu salario liquido em r$ é: " + salarioLiquido);
@@ -32,7 +32,7 @@ public class Main {
       else if(salarioBruto <=2571.29) {
         
         inss =  (1320.00 * 0.075) + ((salarioBruto - 1320.00) * 0.09) ;
-         double salarioLiquido = salarioBruto - inss;
+        double salarioLiquido = salarioBruto - inss;
         
           System.out.println("Sua contribuicao para o INSS em r$ inss é: " + inss);
           System.out.println("Seu salario liquido em r$ é: " + salarioLiquido);
